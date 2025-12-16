@@ -1,0 +1,17 @@
+{
+  "name": "diam-auto-bot",
+  "version": "1.0.0",
+  "description": "DIAM Testnet Auto Faucet & Auto Send Bot",
+  "type": "module",
+  "main": "auto-diam.js",
+  "scripts": {
+    "start": "node auto-diam.js"
+  },
+  "author": "Chupii",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}
