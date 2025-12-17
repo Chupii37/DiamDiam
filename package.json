@@ -1,17 +1,19 @@
 {
-  "name": "diam-auto-bot",
+  "name": "diam-red-hand-bot",
   "version": "1.0.0",
-  "description": "DIAM Testnet Auto Faucet & Auto Send Bot",
+  "description": "DIAM Testnet Auto Bot - RED HAND Edition",
+  "main": "index.js",
   "type": "module",
-  "main": "auto-diam.js",
   "scripts": {
-    "start": "node auto-diam.js"
+    "start": "node index.js"
   },
-  "author": "Chupii",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.8.4",
-    "https-proxy-agent": "^7.0.6",
-    "socks-proxy-agent": "^8.0.5"
+    "axios": "^1.7.9",
+    "blessed": "^0.1.81",
+    "ethers": "^6.12.1",
+    "figlet": "^1.7.0",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.5",
+    "@faker-js/faker": "^9.5.0"
   }
 }
